@@ -1,0 +1,8 @@
+project: rapidfuzz-cpp
+
+# Target name (should be unique within the project)
+target: rapidfuzz-cpp
+
+# List of commands used to test the target
+cmds:
+  - cmd: /fuzz_osa_distance
